@@ -1,0 +1,58 @@
+import type { Product } from '../types/product';
+
+export const productData: Product[] = [
+  {
+    id: 1,
+    name: 'Premium Starter Kit',
+    description: 'Perfect for beginners, includes everything needed to start.',
+    price: 49.99,
+    image: 'https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800',
+    category: 'Starter Kits',
+    features: ['Easy to use', 'Complete kit', 'USB charging'],
+  },
+  {
+    id: 2,
+    name: 'Advanced Pod System',
+    description: 'Compact and powerful, ideal for experienced users.',
+    price: 79.99,
+    image: 'https://images.unsplash.com/photo-1567861911437-538298e4232c?auto=format&fit=crop&w=800',
+    category: 'Pod Systems',
+    features: ['Adjustable airflow', 'Long battery life', 'Quick fill system'],
+  },
+  {
+    id: 3,
+    name: 'Premium Mod Kit',
+    description: 'High-performance device for enthusiasts.',
+    price: 129.99,
+    image: 'https://images.unsplash.com/photo-1563225409-127c18758bd5?auto=format&fit=crop&w=800',
+    category: 'Mods',
+    features: ['Temperature control', '200W output', 'Dual battery'],
+  },
+  {
+    id: 4,
+    name: 'Compact Pod Device',
+    description: 'Ultra-portable pod system for on-the-go vaping.',
+    price: 34.99,
+    image: 'https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800',
+    category: 'Pod Systems',
+    features: ['Draw activated', 'Refillable pods', 'All-day battery'],
+  },
+  {
+    id: 5,
+    name: 'Professional Mod Kit',
+    description: 'Advanced features for the demanding user.',
+    price: 159.99,
+    image: 'https://images.unsplash.com/photo-1567861911437-538298e4232c?auto=format&fit=crop&w=800',
+    category: 'Mods',
+    features: ['Custom curves', 'Bluetooth app', 'Premium materials'],
+  },
+  {
+    id: 6,
+    name: 'Basic Starter Kit',
+    description: 'Simple and reliable entry-level device.',
+    price: 29.99,
+    image: 'https://images.unsplash.com/photo-1563225409-127c18758bd5?auto=format&fit=crop&w=800',
+    category: 'Starter Kits',
+    features: ['One-button operation', 'Built-in battery', 'Safety features'],
+  },
+];
